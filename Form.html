@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        body{
+            background-color:rgb(56, 96, 125);
+            
+            }
+            .container{
+                width:600px;
+                margin: 20px auto;
+                border: 1px solid #ccc;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow:0 0 10px rgb(64, 28, 100);
+                background-color: rgb(215, 249, 250);
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;
+    color: aliceblue;">Hospital registration form</h1>
+    <div class="container">
+    <form action="basic.php" style=" font-size: larger;"><b>
+        <label>patient Name:</label>
+        <input type="text" id="fname" placeholder="First name">
+        
+        <input type="text" id="lname" placeholder="Last name">
+        <br>
+    
+        <label>Registration Date:</label>
+        <input type="text" id="date" placeholder="MM/DD/YYYY">
+        <br>
+    
+        <label>Registration Time:</label>
+        <input type="text" id="time" placeholder="MM/YY/YYYY">
+        
+         <br>
+         <br>
+        <label> Contact No:</label>
+        <input type="text" id="contact" placeholder="123.....">
+
+        <br>  
+        <label> E-mail:</label>
+        <input type="text" id="E-mail" placeholder="@gmail.com">
+        <br>
+        
+        <label>Address:</label>
+        <input type="textarea" id="street address" placeholder="street address">
+        <input type="textarea" id="city" placeholder="city"><br>
+        <input type="textarea" id="region" placeholder="region">
+        <input type="textarea" id="Postal/zip code" placeholder="Post/zip code"><br>
+
+        <label>Date Of Birth:</label>
+        <input type="text" id="date of birth" placeholder="MM/DD/YYYY">
+    
+        <h3><b>Gender</b></h3>
+        <input type="radio" id="radio1" name="radio">
+        <label for="Male">Male</label>
+
+        <input type="radio" id="radio2" name="radio">
+        <label for="Female">Female</label>
+
+        <input type="radio" id="radio3" name="radio">
+        <label for="Other">other</label>
+        <h3>Status</h3>
+        <select>
+            <option value="Married">married</option>   
+            <option value="Unmarried">unmarried</option>
+            <option value="Divorced">divorced</option>
+         </select>
+      
+         <h3>List of medical tests</h3>
+         <input type="checkbox" id="check1" name="checkbox">
+        <label for="">CT Scan</label>
+
+        <input type="checkbox" id="check2" name="checkbox">
+        <label for="">Biopsy</label>
+
+        <input type="checkbox" id="check3" name="checkbox">
+        <label for="">Blood tests</label>
+
+        <input type="checkbox" id="check4" name="checkbox">
+        <label for="">Urinalysis</label>
+
+        <input type="checkbox" id="check5" name="checkbox">
+        <label for="">Liver panel</label>
+
+        <input type="checkbox" id="check6" name="checkbox">
+        <label for="">Analysis of body fluids</label>
+
+        <input type="checkbox" id="check7" name="checkbox">
+        <label for="">Blood pressure measurement</label>
+
+         <h3>for more details:<a href="https://adityabirlahospital.com/">click here</a></h3>
+        
+        <input type="submit" value="Submit" style="color: blueviolet;">
+        
+
+         </b>
+        </div>
+    </form>
+    
+</body>
+</html>
